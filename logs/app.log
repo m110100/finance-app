@@ -1,0 +1,34 @@
+2024-02-14 18:02:45 DEBUG DelegatedExceptionHandler:18 - ERROR: E002
+ Счет с названием Sberbank уже существует
+2024-02-14 18:03:05 DEBUG DelegatedExceptionHandler:18 - ERROR: E002
+ Счет с названием Sberbank уже существует
+2024-02-14 18:10:41 DEBUG DelegatedExceptionHandler:18 - ERROR: E002
+ Счет с названием Tinkoff уже существует
+2024-02-14 20:28:40 DEBUG DelegatedExceptionHandler:18 - ERROR: E002 - Счет с названием Tinkoff уже существует
+2024-02-14 21:51:07 DEBUG DelegatedExceptionHandler:18 - ERROR: E002 - Счет с названием Tinkoff уже существует
+2024-02-14 21:59:22 DEBUG DelegatedExceptionHandler:18 - ERROR: E002 - Счет с названием Tinkoff уже существует
+2024-05-03 17:56:27 DEBUG DelegatedExceptionHandler:18 - ERROR: E002 - Метка с названием Магнит уже существует
+2024-05-03 21:49:03 DEBUG DelegatedExceptionHandler:18 - INFO: E001 - Роль с названием USER не найдена
+2024-05-05 20:10:30 DEBUG DelegatedExceptionHandler:18 - ERROR: E001 - ????????? ?? ???????
+2024-05-21 02:12:58 DEBUG DelegatedExceptionHandler:18 - ERROR: E001 - ???? ?? ??????
+2024-06-16 17:49:47 DEBUG DelegatedExceptionHandler:33 - User with email testuser@email.com doesn't exists
+2024-06-16 17:51:26 DEBUG DelegatedExceptionHandler:18 - ERROR: E002 - Wallet with name Тинькофф already exists
+2024-06-16 17:51:45 DEBUG DelegatedExceptionHandler:33 - User with email testuser@email.com doesn't exists
+2024-06-16 17:56:59 DEBUG DelegatedExceptionHandler:33 - User with email testuser@email.com doesn't exists
+2024-06-16 17:57:01 DEBUG DelegatedExceptionHandler:33 - User with email testuser@email.com doesn't exists
+2024-06-16 17:58:08 DEBUG DelegatedExceptionHandler:18 - ERROR: E002 - Wallet with name Тинькофф already exists
+2024-06-16 17:59:15 DEBUG DelegatedExceptionHandler:33 - User with email testuser@email.com doesn't exists
+2024-06-16 18:01:46 DEBUG DelegatedExceptionHandler:33 - User with email testuser@email.com doesn't exists
+2024-06-16 18:02:41 DEBUG DelegatedExceptionHandler:33 - User with email testuser@email.com doesn't exists
+2024-06-16 18:03:12 DEBUG DelegatedExceptionHandler:33 - User with email testuser@email.com doesn't exists
+2024-06-16 18:08:28 DEBUG DelegatedExceptionHandler:33 - User with email testuser@email.com doesn't exists
+2024-06-16 18:09:44 DEBUG DelegatedExceptionHandler:39 - Bad credentials
+2024-06-16 18:10:27 DEBUG DelegatedExceptionHandler:39 - User with email test1@email.com doesn't exists
+2024-06-16 18:28:31 DEBUG DelegatedExceptionHandler:40 - Cannot invoke "com.mono.app.model.User.getId()" because "user" is null
+2024-06-16 18:29:28 DEBUG DelegatedExceptionHandler:40 - throwed!
+2024-06-16 23:36:52 DEBUG DelegatedExceptionHandler:41 - Cannot invoke "com.mono.app.model.User.getId()" because "user" is null
+2024-06-16 23:48:10 DEBUG DelegatedExceptionHandler:21 - ERROR: E002 - Wallet with name Тинькофф already exists
+2024-06-17 02:26:43 DEBUG DelegatedExceptionHandler:47 - could not execute statement [ERROR: duplicate key value violates unique constraint "users_email_key"
+  Detail: Key (email)=(test@email.com) already exists.] [insert into users (email,is_enabled,password,role_id,username) values (?,?,?,?,?)]; SQL [insert into users (email,is_enabled,password,role_id,username) values (?,?,?,?,?)]; constraint [users_email_key]
+2024-06-17 15:36:27 DEBUG DelegatedExceptionHandler:24 - ERROR: E002 - Wallet with name Tinkoff already exists
+2024-06-17 15:36:32 DEBUG DelegatedExceptionHandler:24 - ERROR: E002 - Wallet with name Tinkoff already exists

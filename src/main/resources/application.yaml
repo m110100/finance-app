@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: postgres
+    password: root
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/f_main_db?currentSchema=f_main_schema
+  jpa:
+    hibernate:
+      ddlAuto: update
+    show-sql: true
+  flyway:
+    user: postgres
+    password: root
+    defaultSchema: f_main_schema
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/f_main_db?currentSchema=f_main_schema
+
+application:
+  security:
+    jwt:
+      secret-key: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      expiration: 86400000
+      refresh-token:
+        expiration: 604800000
